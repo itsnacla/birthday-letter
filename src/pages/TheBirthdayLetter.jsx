@@ -17,48 +17,27 @@ function TheBirthdayLetter() {
         <div className="app">
             <div className="paper">
                 <div className="letter">
-                    <p>Hi, happy birthday!</p>
+                    <p>Hi, Shahouda happy birthday!</p>
                     <p>
-                        u’re so amazing. u passed one more chapter in ur life. ik u can do it bcs i
-                        believe in you. see, you did it. i’m so proud of you. stay alive please, we need
-                        to catch up and celebrate our bday party in person. i miss you so much (hope you
-                        feel the same way). i’m still waiting your latest update, jut hit me through dm.
-                        u know exactly where to find me.
+                        Happy birthday my baby boo!
+                        
+                        I hope that this year ya shahoudty to be the best for you and open more gates for you, I love you so much. I love the way you smile and everything about you, you are my beautiful baby, my frog, my كريزه habebet alby <3 
+                        
+                        You make me feel safe and warm when I'm with you I want you to Fully Rely On God (F.R.O.G.) HAHAHAH 
+                        
+                        Happy birthday, my heart and my frog.
+                        You are my favorite person in this world.
+       
                     </p>
-                    <p>
+                    {/* <p>
                         once more, enjoy ur new journey. hope Allah bless you and let happiness comes to
                         you in every single seconds.
-                    </p>
+                    </p> */}
                     <p style={{ textAlign: "right" }}>with love,</p>
-                    <p style={{ textAlign: "right" }}>sky</p>
+                    <p style={{ textAlign: "right" }}>يوسف حاتم</p>
                 </div>
             </div>
-
-            <div className="title">
-                <p>needs more?</p>
-            </div>
-            <div className="img-btn">
-                <button className="img-button" onClick={() => openPopup("img/thanks-letter.png")}>
-                    <img src="img/letter2.png" alt="letter" className="img-small"/>
-                    <span className="btn-text">thanks</span>
-                </button>
-                <button className="img-button" onClick={() => openPopup("img/sorry-letter.png")}>
-                    <img src="img/letter2.png" alt="letter" className="img-small"/>
-                    <span className="btn-text">sorry</span>
-                </button>
-            </div>
-
-            <div className="img-btn">
-                <button className="img-button" onClick={() => openPopup("img/happy-letter.png")}>
-                    <img src="img/letter2.png" alt="letter" className="img-small"/>
-                    <span className="btn-text">happy</span>
-                </button>
-                <button className="img-button" onClick={() => openPopup("img/sad-letter.png")}>
-                    <img src="img/letter2.png" alt="letter" className="img-small"/>
-                    <span className="btn-text">sad</span>
-                </button>
-            </div>
-
+            
             <button className="btn" onClick={() => navigate("/")}>
                 That's It!
             </button>
